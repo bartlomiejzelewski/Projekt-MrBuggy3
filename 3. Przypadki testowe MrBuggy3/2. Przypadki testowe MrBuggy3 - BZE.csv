@@ -1,0 +1,60 @@
+ID,Tytuł,Warunki wstępne,ID kroku,Kroki do wykonania,Oczekiwany rezultat
+1,[Rejestracja] - pozytywne zarejestrowanie użytkownika,"Dostęp do internetu, system Windows 7 lub wyższy",1,"Klikam w oknie logowania ""Rejestracja""",Zostajesz przeniesiony do okna rejestracji
+,,,2,"Pole ""login"" uzupełniam zdefiniowanymi, poprawnymi danymi",Wpisane znaki są widoczne
+,,,3,"W pole ""e-mail"" wpisuję poprawny, zdefiniowany adres e-mail",Wpisane znaki są widoczne
+,,,4,"W pole ""hasło"" wpisuję poprawne, zdefiniowane hasło",Wpisane hasło jest widoczne pod postacią gwiazdek
+,,,5,"W pole ""Powtórz hasło"" wpisuję te same poprawne, zdefiniowane hasło",Wpisane hasło jest widoczne pod postacią gwiazdek
+,,,6,Klikam checkbox akceptacji regulaminu,Checkbox jest zaznaczony
+,,,7,"Klikam przycisk ""ZAREJESTRUJ""",Użytkownik zostaje pomyślnie zarejestrowany i poproszony o potwierdzenie rejstracji wysłane na podnay adres email
+2,[Rejestracja] - negatywna próba rejestracji użytkownika - błędny e-mail,"Dostęp do internetu, system Windows 7 lub wyższy",1,"Klikam w oknie logowania ""Rejestracja""",Zostaje przeniesiony do okna rejestracji
+,,,2,"Pole ""login"" uzupełniam zdefiniowanymi, poprawnymi danymi",Wpisane znaki są widoczne
+,,,3,"W pole ""e-mail"" wpisuję niepoprawny adres e-mail",Wpisane znaki są widoczne
+,,,4,"W pole ""hasło"" wpisuję poprawne, zdefiniowane hasło",Wpisane hasło jest widoczne pod postacią gwiazdek
+,,,5,"W pole ""Powtórz hasło"" wpisuję te same poprawne, zdefiniowane hasło",Wpisane hasło jest widoczne pod postacią gwiazdek
+,,,6,Klikam checkbox akceptacji regulaminu,Checkbox jest zaznaczony
+,,,7,"Klikam przycisk ""ZAREJESTRUJ""",Użytkownik otrzymuje informacje o wprowadzonym niepoprawnym adresie e-mail
+3,[Rejestracja] - negatywna próba rejestracji użytkownika - błędne hasło,"Dostęp do internetu, system Windows 7 lub wyższy",1,"Klikam w oknie logowania ""Rejestracja""",Zostajesz przeniesiony do okna rejestracji
+,,,2,"Pole ""login"" uzupełniam zdefiniowanymi, poprawnymi danymi",Wpisane znaki są widoczne
+,,,3,"W pole ""e-mail"" wpisuję poprawny, zdefiniowany adres e-mail",Wpisane znaki są widoczne
+,,,4,"W pole ""hasło"" wpisuję niepoprawne hasło",Wpisane hasło jest widoczne pod postacią gwiazdek
+,,,5,"W pole ""Powtórz hasło"" wpisuję te same niepoprawne hasło",Wpisane hasło jest widoczne pod postacią gwiazdek
+,,,6,Klikam checkbox akceptacji regulaminu,Checkbox jest zaznaczony
+,,,7,"Klikam przycisk ""ZAREJESTRUJ""",Użytkownik dostaje informacje o wprowadzonych niepoprawnych danych
+4,[Rejestracja] - negatywna próba rejestracji użytkownika - błędny login,"Dostęp do internetu, system Windows 7 lub wyższy",1,"Klikam w oknie logowania ""Rejestracja""",Zostajesz przeniesiony do okna rejestracji
+,,,2,"Pole ""login"" uzupełniam niepoprawnymi danymi",Wpisane znaki są widoczne
+,,,3,"W pole ""e-mail"" wpisuję poprawny, zdefiniowany adres e-mail",Wpisane znaki są widoczne
+,,,4,"W pole ""hasło"" wpisuję poprawne, zdefiniowane hasło",Wpisane hasło jest widoczne pod postacią gwiazdek
+,,,5,"W pole ""Powtórz hasło"" wpisuję te same poprawne, zdefiniowane hasło",Wpisane hasło jest widoczne pod postacią gwiazdek
+,,,6,Klikam checkbox akceptacji regulaminu,Checkbox jest zaznaczony
+,,,7,"Klikam przycisk ""ZAREJESTRUJ""",Użytkownik dostaje informacje o nieoczekiwanym błedzie
+5,[Rejestracja] - negatywna próba rejestracji użytkownika - brak zaznaczonego checkboxa,"Dostęp do internetu, system Windows 7 lub wyższy",1,"Klikam w oknie logowania ""Rejestracja""",Zostajesz przeniesiony do okna rejestracji
+,,,2,"Pole ""login"" uzupełniam zdefiniowanymi, poprawnymi danymi",Wpisane znaki są widoczne
+,,,3,"W pole ""e-mail"" wpisuję poprawny, zdefiniowany adres e-mail",Wpisane znaki są widoczne
+,,,4,"W pole ""hasło"" wpisuję poprawne, zdefiniowane hasło",Wpisane hasło jest widoczne pod postacią gwiazdek
+,,,5,"W pole ""Powtórz hasło"" wpisuję te same poprawne, zdefiniowane hasło",Wpisane hasło jest widoczne pod postacią gwiazdek
+,,,6,"Checkbox pozostawiam pusty, nie odznaczam go",Checkbox jest pusty
+,,,7,"Klikam przycisk ""ZAREJESTRUJ""","Użytkownik dostaje informacje o tym, że musi zaakceptować regulamin"
+6,[Rejestracja] - negatywny- próba rejestracji na zarejestrowany wcześniej login,"Dostęp do internetu, system Windows 7 lub wyższy, zarejestrowany wczesniej użytkownik",1,"Klikam w oknie logowania ""Rejestracja""",Zostajesz przeniesiony do okna rejestracji
+,,,2,"Pole ""login"" uzupełniam poprawnym loginem z wcześniejszej poprawnej rejestracji",Wpisane znaki są widoczne
+,,,3,"W pole ""e-mail"" wpisuję poprawny, zdefiniowany adres e-mail, ale inny niż z poprzedniej poprawnej rejestracji",Wpisane znaki są widoczne
+,,,4,"W pole ""hasło"" wpisuję poprawne, zdefiniowane hasło",Wpisane hasło jest widoczne pod postacią gwiazdek
+,,,5,"W pole ""Powtórz hasło"" wpisuję te same poprawne, zdefiniowane hasło",Wpisane hasło jest widoczne pod postacią gwiazdek
+,,,6,Klikam checkbox akceptacji regulaminu,Checkbox jest zaznaczony
+,,,7,"Klikam przycisk ""ZAREJESTRUJ""","Użytkownik dostaje informacje o tym, że podany login jest niedostępny"
+7,[Logowanie] - pozytywne zalogowanie do aplikacji,"Dostęp do internetu, system Windows 7 lub wyższy, istnejący użytkownik",1,"Wpisuję poprawny adres e-mail w pole ""e-mail""",Wpisane znaki są widoczne
+,,,2,"Wpisuję poprawne hasło w pole ""hasło""",Wpisane hasło jest widoczne pod postacią gwiazdek
+,,,3,Klikam zaloguj,Użytkownik jest zalogowany do aplikacji
+8,[Logowanie] - negatywna próba zalogowanie do aplikacji - błędne hasło,"Dostęp do internetu, system Windows 7 lub wyższy, istnejący użytkownik",1,"Wpisuję poprawny adres e-mail w pole ""e-mail""",Wpisane znaki są widoczne
+,,,2,"Wpisuję niepoprawne hasło w pole ""hasło""",Wpisane hasło jest widoczne pod postacią gwiazdek
+,,,3,Klikam zaloguj,Użytkownik dostaje informację o niepoprawnym adresie e-mail lub haśle
+8,[Logowanie] - negatywna próba zalogowanie do aplikacji - błędny e-mail,"Dostęp do internetu, system Windows 7 lub wyższy, istnejący użytkownik",1,"Wpisuję niepoprawny adres e-mail w pole ""e-mail""",Wpisane znaki są widoczne
+,,,2,"Wpisuję poprawne hasło w pole ""hasło""",Wpisane hasło jest widoczne pod postacią gwiazdek
+,,,3,Klikam zaloguj,Użytkownik dostaje informację o niepoprawnym adresie e-mail lub haśle
+9,"[Wygląd i funkcje] - przyciski nawigacyjne ""następne"" i ""poprzednie""","Dostęp do internetu, system Windows 7 lub wyższy, zalogowany użytkownik, wyświetlone okno z zadaniami",1,"Klikam przycisk ""Następne""","W oknie ""Zadania"" wyświetla się zadanie nr 2, zmienia się opis w polu z opisem zadania oraz numer w polu Nr Zadania"
+,,,2,"Klikam przycisk ""Poprzednie""","W oknie ""Zadania"" wyświetla się zadanie z nr 1, zmienia się opis zadania w polu z opisem zadania oraz numer zadania w polu Nr Zadania"
+10,[Wygląd i funkcje] - poprawne wyświetlanie pola z opisem zadanie,"Dostęp do internetu, system Windows 7 lub wyższy, zalogowany użytkownik, wyświetlone okno z zadaniami",1,Sprawdzam czy w menu bocznym znajduje się pole z opisem zadania i czy wyświetla się prawidłowo,Pole jest wyświetlane prawidłowo i jest wyświetlany opis zadania wewnątrz pola
+11,[Wygląd i funkcje] - poprawne wyświetlanie szyfrowania hasła,"Dostęp do internetu, system Windows 7 lub wyższy, otwarte okno logowania aplikacji ",1,"Wpisuje hasło które mnie interesuje w pole ""hasło"" ",Wpisane hasło jest widoczne pod postacią gwiazdek
+12,[Wygląd i funkcje] - weryfikacja formatu pola z czasem,"Dostęp do internetu, system Windows 7 lub wyższy, zalogowany użytkownik, wyświetlone okno z zadaniami",1,Weryfikuje czy w menu bocznym znajduje się pole wyświetlające czas do zakończenia rundy w odpowiednim formacie,Po prawej stronie znajduje się pole wyświetlające czas w formacie gg:mm:ss
+13,"[Wygląd i funkcje] - weryfikacja pola z numerem zadania np. ""Zadanie#1""","Dostęp do internetu, system Windows 7 lub wyższy, zalogowany użytkownik, wyświetlone okno ""Zadanie #1"" ",1,"Weryfikuje czy w polu ""Numer zadania"" wyświetla się prawidłowa wartość np. ""Zadanie #1""","W polu ""Numer zadania"" wyświetla się np. ""Zadanie #1"""
+,,,2,"Naciskam przycisk ""Następne""","Użytkownik zostanie przeniesiony do ""Zadanie #2"" i wyświetlane jest ""Zadanie #2"" w polu"
+,,,3,"Naciskam przycisk """"Poprzednie""","Użytkownik zostanie przeniesiony do ""Zadanie #1"" i wyświetlane jest ""Zadanie #1"" w polu"

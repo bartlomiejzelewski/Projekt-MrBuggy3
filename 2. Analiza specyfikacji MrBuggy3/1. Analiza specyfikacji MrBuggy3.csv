@@ -1,0 +1,17 @@
+ID,Strona w specyfikacji,Znaleziony błąd,Jak powinno być
+1,Strona 6,"Link www.testingcup.pl nie przekierowuje na podany adres, tylko na adres https://testerzy.pl/wiesci-ze-swiata-testerow/testing-cup-2015-konferencja",Otwiera się strona www.testingcup.pl
+2,Strona 6,"Wymagane są 4 wersje aplikacji klienckiej, a podane są tylko 3 ( demo, końcowa, publiczna )",Powinny być 4 wersje
+3,Strona 7,W ostatnim akapicie w słowie “ urzyta “ jest błąd językowy,Powinno być “użyta”
+4,Strona 7 i 11,W wymaganiach środowiskowych (strona 7)  nie było zdefiniowanego języka w którym ma być napisany program. W części serwisowej (Strona 11) jest narzucony język Java7,Brak zdefiniowanego języka w którym ma być napisany program
+5,Strona 8,"Błąd w logiczny przy użyciu słowa zdaniu ""W aplikacji dostępnych ma być nie mniej niż 15 zadań (problemów). W każdym zdaniu ma być dokładnie jeden defekt.""","Powinno być ""W każdym zadaniu ma być dokładnie jeden defekt"""
+6,Strona 8 i 10,Tryby różnią się możliwością raportowania defektów. W trybie członka drużyny możliwość ta jest zablokowana. Przycisk “Zaraportuj defekt” Funkcja ta jest dostępna we wszystkich trybach pracy aplikacji.,W trybie członka drużyny możliwość powinna być zablokowana
+7,Strona 9,"Błąd językowy ""Prowadzić klasyfikację generalna w dwóch kategoriach: indywidualnej i drużynowej""","Prawidłowo powinno być ""Prowadzić klasyfikację generalną w dwóch kategoriach: indywidualnej i drużynowej"""
+8,Strona 10 i 11,"Brak spójności między opisem, a oknem poglądowym odnośnie przycisku “Zaraportuj defekt”. W oknie poglądowym jest przycisk o nazwie “Znalazłem defekt”",Powinno być “Zaraportuj defekt”
+9,Strona 10,"Podpunkt “Pole ""czas"""" jest nieprawidłowo opisany. Podany jest format: gg:mm:ss; godzina, minuta, sekunda, milisekunda)",Prawidłowo opisany format gg:mm:ss:ms
+10,Strona 10,"Podpunkt ""Pole “Opis problemu”"" Nie przedstawia on opisu problemu tylko informacje na temat zadania - ""zawiera ogólną informację na temat zadania wyświetlonego w polu “Zadania” wraz z ilością punktów za dane zadanie""",Opis powinien zawierać faktyczny opis problemu
+11,Strona 11,"Opis schematu mówi o tym, że ""W oknie aplikacji musi się znaleźć ikona MrBuggy 3."" W schemacie nie ma żadnej ikony.",W oknie aplikacji musi się znaleźć ikona MrBuggy 3
+12,Strona 12,Wielkość pliku z kopią zapasową aplikacji klienckiej nie może przekraczać 2MB1. Nie ma takiej jednostki jak 2MB1.,"Powinno być 2MB, albo 2,1MB"
+13,Strona 12,"""login musi składać się z 2 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny"" Login nie może zawierać spacji, dwukropków lub cudzysłowów - znaków specjalnych. Nie może składać się wyłącznie z cyfr, ani nie może być pusty. Może zawierać maksymalnie 32 znaki.","Login powinien mieć możliwość posiadania większej ilości znaków, oraz nie może mieć znaków specjalnych. "
+14,Strona 12,"Opis wzoru ""t - średni czas odpowiedzi interfejsu ma być większa od 10000.""  Brak zdefiniowanej informacji o tym z 10000 czego ma być średni czas odpowiedzi interfejsu.",Przykładem mogłoby być 10000ms czyli 10 sekund
+15,Strona 13,"Błąd logiczny w użyciu słowa dialektycznych. ""Hasło nie może zawierać białych znaków ani polskich znaków dialektycznych""",Prawidłowym słowem w znaczeniu zdania jest diakrytycznych
+16,Strona 14,"Opis zadań zamieszczony na stronie jest zbyt skomplikowany, zawiły i wykluczający się.","Opis powinien być bardziej zrozumiały, mniej zawiły, prostszy w zrozumieniu"
